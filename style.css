@@ -1,3 +1,4 @@
+
 body {
     font-size: 14px;
     color: navy;
@@ -41,4 +42,7 @@ h2 {
 table {
     outline: black;
     outline-width: 2px;
+}
+.bold {
+    color:red;
 }

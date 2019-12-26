@@ -1,0 +1,44 @@
+body {
+    font-size: 14px;
+    color: navy;
+    background-color:lightgray;
+    font-family: arial, helvetica, serif;
+    margin: 10%, 5%, 0, 5%;
+    padding:10px;
+    border-style: outset;
+    border-radius: 15px;
+}
+h1,h2 {
+    color: #009;
+    background-color: #ffc;
+    text-decoration: underline;
+    padding: 5px;
+    border-style: outset;
+    margin:0,20px;
+    border-width: 0.1em;
+    border-radius: 5px;
+p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0,15px;
+}
+em {
+    font-style: italic;
+}
+strong {
+    font-weight: bold;
+}
+#chapter2 {
+    font-variant: small-caps;
+}
+h1 {
+    text-transform: capitalize;
+}
+h2 {
+    letter-spacing: 2px;
+    text-align: center;
+}
+table {
+    outline: black;
+    outline-width: 2px;
+}

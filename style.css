@@ -1,22 +1,57 @@
 
 body{
-    font-size: 14px;
+    padding:0;
+    margin:0;
+    background: white url(/home/tim7326/first_web_page/wood.jpg) repeat top right;
+}
+
+div.content {
+    background-color: lightgray;
+    font: normal 14px arial;
     color: navy;
-    background-color:lightgray;
-    font-family: arial, helvetica, serif;
+
     margin: 5px 5% 0 5%;
     padding:10px;
     border-style: outset;
     border-radius: 15px;
 }
+
+div.navigation {
+
+    
+    margin:0;
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    border: 40%;
+    
+    
+   
+}
+div.navigationbox {
+background-color: lightskyblue;
+    width:100%;
+    height: 200px; 
+    padding: 0;
+    border-width: 0 ;
+    top:0;
+    right:0;
+    
+}
+#test {
+    ;
+}
+
+
 h1,h2 {
     color: #009;
     background-color: #ffc;
     text-decoration: underline;
     padding: 5px;
-    border-style: outset;
-    margin:10px 20px;
-    border-width: 0.1em;
+    border: 0.1em outset;
+    border-color: gray black;
+
     border-radius: 5px;
 }
 p {
@@ -90,6 +125,6 @@ ol li {
     padding: 10px;
     border-width: 5px;
     background-color: yellowgreen;
-    border-color: black;
+    border-color: black gray;
     border-style: double;
 }

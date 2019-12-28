@@ -23,25 +23,41 @@ div.navigation {
     position: absolute;
     top:0;
     left:0;
-    text-align: center;
-    border: 40%;
+    
+
     
     
    
 }
 div.navigationbox {
 background-color: lightskyblue;
-    width:100%;
+    
     height: 200px; 
     padding: 0;
-    border-width: 0 ;
+    border-width: 0;
     top:0;
     right:0;
+}
+
+
+ul.navtext {
+    list-style-type:none;
+    
+
     
 }
-#test {
-    ;
+div.navtext li {
+    color: #darkblue;
+    background-color: #ffc;
+    text-decoration: underline;
+    padding: 5px;
+    border: 0.1em outset;
+    border-color: gray black;
+    border-radius: 5px;
+    display:inline;
+
 }
+
 
 
 h1,h2 {
@@ -105,9 +121,7 @@ a:hover {
 textarea:focus{
     background: palevioletred;
 }
-a:first-child {
-    font-size: 30px;
-}
+
 ol li {
     display: block;
     padding: 10px 20px;
